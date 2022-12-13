@@ -4,6 +4,7 @@ import NavigationBar from './components/NavigationBar';
 import "./style/landingPage.css"
 import Intro from './components/Intro';
 import Trending from "./components/Trending"
+import SuperHero from "./components/Superhero"
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <Trending />
       </div>
       {/* End Trending Section */}
+      <div className='superhero'>
+        <SuperHero />
+      </div>
     </div>
   );
 }

@@ -20,12 +20,26 @@
 }
 
 .trending {
-    height: 100vh;
+    height: auto;
+    background: url("../assets/images/bg/scifi.jpg");
+    background-size: cover;
+}
+
+.superhero {
+    height: auto;
     background: url("../assets/images/bg/spiderman.jpg");
     background-size: cover;
 }
 
 .movieImage {
-    width: 200px;
-    /* height: 200px; */
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.movieWrapper {}
+
+.images {
+    height: 500px;
 }
